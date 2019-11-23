@@ -10,6 +10,12 @@
         android:text="You've Crashed" />
 
     <Button
+        android:id="@+id/mainmenubutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Menu" />
+
+    <Button
         android:id="@+id/restartbutton"
         android:layout_width="match_parent"
         android:layout_height="448dp"
