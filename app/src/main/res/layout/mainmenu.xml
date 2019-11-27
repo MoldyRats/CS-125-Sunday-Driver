@@ -8,23 +8,26 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CS 125 Sunday Driver" />
+        android:text="@string/CS_125_Sunday_Driver"
+        android:textSize="36sp"
+        android:textStyle="bold" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/mainmenu-imageView"
         android:layout_width="match_parent"
         android:layout_height="338dp"
+        android:contentDescription="@string/cs_crest"
         app:srcCompat="@mipmap/ic_launcher" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/exitgame-button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Exit Game" />
+        android:text="@string/Exit_Game" />
 
     <Button
-        android:id="@+id/startgamebutton"
+        android:id="@+id/startgame-button"
         android:layout_width="match_parent"
         android:layout_height="339dp"
-        android:text="Start Game" />
+        android:text="@string/Start_Game" />
 </LinearLayout>

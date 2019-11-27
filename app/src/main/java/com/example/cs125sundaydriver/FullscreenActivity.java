@@ -4,11 +4,13 @@ import android.annotation.SuppressLint;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.ViewModelProvider;
 
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -85,11 +87,22 @@ public class FullscreenActivity extends AppCompatActivity {
         }
     };
 
+    /**
+     * Started working on the basic button functions for the app
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_fullscreen);
+        Button ejectcarbutton = findViewById(R.id.ejectcarbutton);
+        ejectcarbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                $$$$
+            }
+        });
 
         mVisible = true;
         mControlsView = findViewById(R.id.fullscreen_content_controls);
@@ -107,7 +120,7 @@ public class FullscreenActivity extends AppCompatActivity {
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
-        findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
+        findViewById(R.id.ejectcarbutton).setOnTouchListener(mDelayHideTouchListener);
     }
 
     @Override

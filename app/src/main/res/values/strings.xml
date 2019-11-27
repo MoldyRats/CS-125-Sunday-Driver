@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">CS 125 Sunday Driver</string>
-
+    <string name="Eject">Eject</string>
+    <string name="You_Have_Crashed">You\'ve Crashed</string>
+    <string name="Main_Menu">Main Menu</string>
+    <string name="Restart_Button">Try Again</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="CS_125_Sunday_Driver">CS 125 Sunday Driver</string>
+    <string name="cs_crest">Code of Arms</string>
+    <string name="Exit_Game">Exit Game</string>
+    <string name="Start_Game">Start Game</string>
 </resources>
