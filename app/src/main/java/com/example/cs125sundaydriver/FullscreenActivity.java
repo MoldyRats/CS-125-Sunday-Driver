@@ -72,7 +72,6 @@ public class FullscreenActivity extends AppCompatActivity {
             hide();
         }
     };
-    /**
      * Touch listener to use for in-layout UI controls to delay hiding the
      * system UI. This is to prevent the jarring behavior of controls going away
      * while interacting with activity UI.
@@ -81,6 +80,7 @@ public class FullscreenActivity extends AppCompatActivity {
         @Override
         public boolean onTouch(View view, MotionEvent motionEvent) {
             if (AUTO_HIDE) {
+                /**
                 delayedHide(AUTO_HIDE_DELAY_MILLIS);
             }
             return false;
