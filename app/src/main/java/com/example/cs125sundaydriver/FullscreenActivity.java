@@ -6,6 +6,7 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
@@ -101,6 +102,8 @@ public class FullscreenActivity extends AppCompatActivity {
         ejectcarbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent crashmenu = new Intent(getApplicationContext(), CrashMenu.class);
+                startActivity(crashmenu);
             }
         });
 

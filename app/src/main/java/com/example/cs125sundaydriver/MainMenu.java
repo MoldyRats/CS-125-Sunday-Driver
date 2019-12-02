@@ -13,7 +13,18 @@ public class MainMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
-        //Create a button to start the game
+        //Create a button to exit the game
+        Button exitGameBtn = findViewById(R.id.button_Exit_Game);
+        //create a setonclicklistener to give the button an action
+        exitGameBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //finish and exit the game
+                finish();
+                System.exit(0);
+            }
+        });
+        //create a button to start the game
         Button startGameBtn = findViewById(R.id.button_Start_Game);
         //Create a setOnClickListener to give the button an action
         startGameBtn.setOnClickListener(new View.OnClickListener() {
