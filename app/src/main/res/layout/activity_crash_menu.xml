@@ -5,13 +5,17 @@
     android:id="@+id/CarCrash_textview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/crash_car"
     tools:context=".CrashMenu">
 
     <TextView
         android:id="@+id/textView_Crash_Title"
         android:layout_width="249dp"
         android:layout_height="59dp"
+        android:background="#030303"
         android:text="@string/You_Have_Crashed"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,25 +24,10 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <ImageView
-        android:id="@+id/CrashMenu_imageView"
-        android:layout_width="413dp"
-        android:layout_height="495dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:contentDescription="@string/Image_view"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.317"
-        app:srcCompat="@drawable/IMG_0535" />
-
     <Button
         android:id="@+id/button_Main_Menu"
-        android:layout_width="186dp"
-        android:layout_height="101dp"
+        android:layout_width="161dp"
+        android:layout_height="96dp"
         android:text="@string/Main_Menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,8 +38,8 @@
 
     <Button
         android:id="@+id/button_Restart_Game"
-        android:layout_width="188dp"
-        android:layout_height="102dp"
+        android:layout_width="172dp"
+        android:layout_height="97dp"
         android:text="@string/Restart_Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

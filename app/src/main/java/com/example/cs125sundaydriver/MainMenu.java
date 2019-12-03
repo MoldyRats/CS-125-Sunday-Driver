@@ -20,8 +20,8 @@ public class MainMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //finish and exit the game
-                finish();
                 System.exit(0);
+                finish();
             }
         });
         //create a button to start the game
