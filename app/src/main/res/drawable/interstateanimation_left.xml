@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+    android:drawable="@drawable/road1left"
+    android:duration="400"/>
+<item
+    android:drawable="@drawable/road2left"
+    android:duration="400"/>
+<item
+    android:drawable="@drawable/road3left"
+    android:duration="400"/>
+<item
+    android:drawable="@drawable/road4left"
+    android:duration="400"/>
+
+
+
+</animation-list>

@@ -31,7 +31,7 @@ public class MainMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //create an Intent to swicth to the fullscreen activity once clicked
-                Intent startintent = new Intent(getApplicationContext(), gameplay.class);
+                Intent startintent = new Intent(getApplicationContext(), gamePlay_Right.class);
                 startActivity(startintent);
             }
         });
