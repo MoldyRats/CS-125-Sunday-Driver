@@ -2,16 +2,16 @@
 <animation-list xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:drawable="@drawable/interstate1"
+        android:drawable="@drawable/road1"
         android:duration="400"/>
     <item
-        android:drawable="@drawable/interstate2"
+        android:drawable="@drawable/road2"
         android:duration="400"/>
     <item
-        android:drawable="@drawable/interstate3"
+        android:drawable="@drawable/road3"
         android:duration="400"/>
     <item
-        android:drawable="@drawable/interstate4"
+        android:drawable="@drawable/road4"
         android:duration="400"/>
 
 
