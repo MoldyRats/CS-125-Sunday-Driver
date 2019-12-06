@@ -27,7 +27,7 @@ public class CrashMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //create an Intent to swicth to the fullscreen activity once clicked
-                Intent startintent = new Intent(getApplicationContext(), FullscreenActivity.class);
+                Intent startintent = new Intent(getApplicationContext(), gameplay.class);
                 startActivity(startintent);
             }
         });
