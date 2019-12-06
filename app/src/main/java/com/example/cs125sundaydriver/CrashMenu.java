@@ -2,12 +2,13 @@ package com.example.cs125sundaydriver;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class CrashMenu extends AppCompatActivity {
+public class CrashMenu extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
