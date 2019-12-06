@@ -7,6 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".CrashMenu">
 
+    <ImageView
+        android:id="@+id/imageView_crashCar"
+        android:layout_width="402dp"
+        android:layout_height="732dp"
+        android:contentDescription="@string/Image_View"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/carimage" />
+
     <TextView
         android:id="@+id/textView_Crash_Title"
         android:layout_width="249dp"
