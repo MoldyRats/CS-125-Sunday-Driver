@@ -19,7 +19,7 @@
 
     <Button
         android:id="@+id/ejectcarbutton"
-        style="?metaButtonBarButtonStyle"
+        style="@android:style/Widget.Button"
         android:layout_width="76dp"
         android:layout_height="54dp"
         android:layout_marginTop="8dp"

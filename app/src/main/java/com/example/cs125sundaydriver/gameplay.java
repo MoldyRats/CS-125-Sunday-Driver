@@ -3,11 +3,14 @@ package com.example.cs125sundaydriver;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class gameplay extends AppCompatActivity {
+    AnimationDrawable interstateAnimation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,5 +24,16 @@ public class gameplay extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ImageView imageView = findViewById(R.id.interstate125);
+        imageView.setBackgroundResource(R.drawable.interstateanimation);
+        interstateAnimation = (AnimationDrawable) imageView.getBackground();
+    }
+
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
+        interstateAnimation.start();
     }
 }
+
