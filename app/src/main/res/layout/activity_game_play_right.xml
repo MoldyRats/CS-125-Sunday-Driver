@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".gameplay">
+    tools:context=".gamePlay_Right">
 
 
     <ImageView
-        android:id="@+id/interstate125"
-        android:layout_width="402dp"
-        android:layout_height="730dp"
+        android:id="@+id/interstate125_right"
+        android:layout_width="359dp"
+        android:layout_height="684dp"
         android:contentDescription="@string/roadAnimation"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/ejectcarbutton"
+        android:id="@+id/eject_rightbutton"
         style="@android:style/Widget.Button"
         android:layout_width="76dp"
         android:layout_height="54dp"
@@ -27,11 +27,26 @@
         android:layout_marginRight="8dp"
         android:layout_weight="1"
         android:text="@string/Eject"
+        android:textColor="#B71C1C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.969"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.011" />
+
+    <Button
+        android:id="@+id/right_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skrt"
+        android:textColor="#FF6F00"
+        android:textColorHint="#FF6F00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

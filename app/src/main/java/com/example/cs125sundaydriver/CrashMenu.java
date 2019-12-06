@@ -2,13 +2,12 @@ package com.example.cs125sundaydriver;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class CrashMenu extends Activity {
+public class CrashMenu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +27,7 @@ public class CrashMenu extends Activity {
             @Override
             public void onClick(View v) {
                 //create an Intent to swicth to the fullscreen activity once clicked
-                Intent startintent = new Intent(getApplicationContext(), gameplay.class);
+                Intent startintent = new Intent(getApplicationContext(), gamePlay_Right.class);
                 startActivity(startintent);
             }
         });
