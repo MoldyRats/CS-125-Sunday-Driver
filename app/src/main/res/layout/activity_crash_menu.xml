@@ -11,11 +11,12 @@
         android:id="@+id/imageView_crashCar"
         android:layout_width="402dp"
         android:layout_height="732dp"
-        android:contentDescription="@string/Image_View"
+        android:contentDescription="@string/introtocsmeme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/introtocsmeme" />
 
     <TextView
         android:id="@+id/textView_Crash_Title"
